@@ -4,10 +4,13 @@ import type { FoodTruck } from '~/types'
 const { list } = useFoodTrucks()
 const trucks = ref<FoodTruck[]>([])
 const view = ref<'list' | 'map'>('list')
-const selected = ref<FoodTruck | null>(null)
 
 const { data } = await useAsyncData('food_trucks', () => list())
 trucks.value = data.value ?? []
+
+function openTruck(truck: FoodTruck) {
+  navigateTo(`/trucks/${truck.id}`)
+}
 </script>
 
 <template>
@@ -22,10 +25,8 @@ trucks.value = data.value ?? []
     <FilterBar class="shrink-0" :view="view" @update:view="view = $event" />
 
     <div class="flex flex-1 flex-col overflow-hidden">
-      <TruckMapView v-if="view === 'map'" :trucks="trucks" @select="selected = $event" />
-      <TruckListView v-else class="flex-1 overflow-y-auto" :trucks="trucks" @select="selected = $event" />
+      <TruckMapView v-if="view === 'map'" :trucks="trucks" @select="openTruck" />
+      <TruckListView v-else class="flex-1 overflow-y-auto" :trucks="trucks" @select="openTruck" />
     </div>
-
-    <TruckDetailPanel v-if="selected" :truck="selected" @close="selected = null" />
   </div>
 </template>

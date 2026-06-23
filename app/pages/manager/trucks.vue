@@ -48,5 +48,9 @@ async function save() {
       <button type="submit" class="rounded-full bg-orange-600 py-2 text-sm font-medium text-white">Save</button>
       <p v-if="saved" class="text-sm text-green-600">Saved.</p>
     </form>
+
+    <div v-if="myTruck" class="mt-10 max-w-2xl">
+      <ManagerMenuEditor :food-truck-id="myTruck.id" />
+    </div>
   </div>
 </template>

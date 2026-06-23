@@ -23,3 +23,22 @@ export interface FoodTruck {
   tag: string
   manager_id: number | null
 }
+
+export interface MenuItem {
+  id: number
+  category_id: number
+  name: string
+  price: number
+  image_url: string
+  description: string
+  ingredients: string[]
+  sort_order: number
+}
+
+export interface MenuCategory {
+  id: number
+  food_truck_id: number
+  name: string
+  sort_order: number
+  items: MenuItem[]
+}
