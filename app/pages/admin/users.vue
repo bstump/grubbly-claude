@@ -18,7 +18,7 @@ const users = computed(() => data.value ?? [])
 const saving = ref<number | null>(null)
 
 async function toggleRole(user: AdminUser, role: Role) {
-  const roleIds = ALL_ROLES.filter(r => (user.roles.includes(r) ? r !== role : r === role))
+  const roleIds = ALL_ROLES.filter(r => ((user.roles ?? []).includes(r) ? r !== role : r === role))
   saving.value = user.id
   try {
     await request(`/users/${user.id}/roles`, { method: 'PATCH', body: { role_ids: roleIds } })
@@ -47,7 +47,7 @@ async function toggleRole(user: AdminUser, role: Role) {
           <td v-for="role in ALL_ROLES" :key="role" class="py-2">
             <input
               type="checkbox"
-              :checked="user.roles.includes(role)"
+              :checked="(user.roles ?? []).includes(role)"
               :disabled="saving === user.id"
               @change="toggleRole(user, role)"
             />
