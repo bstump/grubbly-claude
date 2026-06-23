@@ -1,0 +1,5 @@
+name,description,photo_url,latitude,longitude,address,rating,review_count,hours_open,hours_close,menu_url,tag,manager_id
+Lobsta Truck,Maine-style lobster rolls served fresh on the waterfront.,https://picsum.photos/seed/lobsta-truck/600/400,37.8065,-122.4316,"2 Marina Blvd, Fort Mason Center",4.00,131,7:00 PM,12:00 AM,http://sf.lobstatruck.com/menu,Seafood,
+Izzy's Cheesesteaks,Philly-style cheesesteaks loaded with peppers and onions.,https://picsum.photos/seed/izzys-cheesesteaks/600/400,37.7706,-122.3892,601 Mission Bay Boulevard North,3.75,93,12:00 PM,10:00 PM,http://www.izzyscheesesteaks.com/menu.html,Sandwiches,
+Taco Fiesta,Street tacos and burritos with house-made salsas.,https://picsum.photos/seed/taco-fiesta/600/400,37.7599,-122.4148,"24th St & Mission St",4.50,210,11:00 AM,9:00 PM,http://sf.tacofiesta.com/menu,Mexican,
+Curbside Creamery,Small-batch ice cream and waffle cones.,https://picsum.photos/seed/curbside-creamery/600/400,37.8024,-122.4058,"Pier 39, Embarcadero",4.25,76,1:00 PM,11:00 PM,http://curbsidecreamery.com/menu,Dessert,

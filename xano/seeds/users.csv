@@ -1,0 +1,5 @@
+email,password,name
+customer@curbly.test,changeme123,Customer Test
+worker@curbly.test,changeme123,Worker Test
+manager@curbly.test,changeme123,Manager Test
+admin@curbly.test,changeme123,Admin Test
