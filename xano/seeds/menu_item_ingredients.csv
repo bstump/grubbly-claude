@@ -1,0 +1,41 @@
+menu_item_id,name,sort_order
+1,Lobster,1
+1,Butter,2
+1,Brioche Bun,3
+1,Lemon,4
+2,Lobster,1
+2,Spicy Mayo,2
+2,Celery,3
+2,Brioche Bun,4
+3,Potato,1
+3,Sea Salt,2
+4,Water,1
+5,Beef,1
+5,Provolone,2
+5,Grilled Onions,3
+5,Hoagie Roll,4
+6,Chicken,1
+6,Provolone,2
+6,Bell Peppers,3
+6,Hoagie Roll,4
+7,Potato,1
+7,Cheese Sauce,2
+8,Steak,1
+8,Onion,2
+8,Cilantro,3
+8,Corn Tortilla,4
+9,Pork,1
+9,Pineapple,2
+9,Onion,3
+9,Corn Tortilla,4
+10,Rice,1
+10,Black Beans,2
+10,Grilled Vegetables,3
+10,Flour Tortilla,4
+11,Cream,1
+11,Vanilla Bean,2
+11,Sugar,3
+12,Cream,1
+12,Cocoa,2
+12,Fudge,3
+13,Waffle Cone,1

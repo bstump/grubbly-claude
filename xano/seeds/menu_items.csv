@@ -1,14 +1,14 @@
-category_id,name,price,image_url,description,ingredients,sort_order
-1,Classic Lobster Roll,16.00,https://picsum.photos/seed/lobster-roll/400/300,Cold Maine lobster tossed in lemon butter on a toasted bun.,"[""Lobster"",""Butter"",""Brioche Bun"",""Lemon""]",1
-1,Spicy Lobster Roll,17.00,https://picsum.photos/seed/spicy-lobster-roll/400/300,Lobster tossed in spicy mayo with celery.,"[""Lobster"",""Spicy Mayo"",""Celery"",""Brioche Bun""]",2
-2,Hand-Cut Fries,5.00,https://picsum.photos/seed/fries/400/300,Crispy fries with sea salt.,"[""Potato"",""Sea Salt""]",1
-3,Bottled Water,2.00,https://picsum.photos/seed/water/400/300,,"[""Water""]",1
-4,Classic Cheesesteak,11.00,https://picsum.photos/seed/cheesesteak/400/300,Thin-sliced beef with melted cheese and grilled onions.,"[""Beef"",""Provolone"",""Grilled Onions"",""Hoagie Roll""]",1
-4,Chicken Cheesesteak,10.50,https://picsum.photos/seed/chicken-cheesesteak/400/300,Grilled chicken with melted cheese and peppers.,"[""Chicken"",""Provolone"",""Bell Peppers"",""Hoagie Roll""]",2
-5,Cheese Fries,6.00,https://picsum.photos/seed/cheese-fries/400/300,Fries topped with melted cheese sauce.,"[""Potato"",""Cheese Sauce""]",1
-6,Carne Asada Taco,3.50,https://picsum.photos/seed/carne-asada-taco/400/300,Grilled steak taco with onion and cilantro.,"[""Steak"",""Onion"",""Cilantro"",""Corn Tortilla""]",1
-6,Al Pastor Taco,3.50,https://picsum.photos/seed/al-pastor-taco/400/300,Marinated pork taco with pineapple.,"[""Pork"",""Pineapple"",""Onion"",""Corn Tortilla""]",2
-7,Veggie Burrito,9.00,https://picsum.photos/seed/veggie-burrito/400/300,"Rice, beans, and grilled vegetables wrapped in a flour tortilla.","[""Rice"",""Black Beans"",""Grilled Vegetables"",""Flour Tortilla""]",1
-8,Vanilla Bean Scoop,4.00,https://picsum.photos/seed/vanilla-scoop/400/300,Classic vanilla bean ice cream.,"[""Cream"",""Vanilla Bean"",""Sugar""]",1
-8,Chocolate Fudge Scoop,4.50,https://picsum.photos/seed/chocolate-scoop/400/300,Rich chocolate ice cream with fudge swirls.,"[""Cream"",""Cocoa"",""Fudge""]",2
-9,Waffle Cone,1.50,https://picsum.photos/seed/waffle-cone/400/300,Crispy waffle cone upgrade.,"[""Waffle Cone""]",1
+category_id,name,price,image_url,description,sort_order
+1,Classic Lobster Roll,16.00,https://picsum.photos/seed/lobster-roll/400/300,Cold Maine lobster tossed in lemon butter on a toasted bun.,1
+1,Spicy Lobster Roll,17.00,https://picsum.photos/seed/spicy-lobster-roll/400/300,Lobster tossed in spicy mayo with celery.,2
+2,Hand-Cut Fries,5.00,https://picsum.photos/seed/fries/400/300,Crispy fries with sea salt.,1
+3,Bottled Water,2.00,https://picsum.photos/seed/water/400/300,,1
+4,Classic Cheesesteak,11.00,https://picsum.photos/seed/cheesesteak/400/300,Thin-sliced beef with melted cheese and grilled onions.,1
+4,Chicken Cheesesteak,10.50,https://picsum.photos/seed/chicken-cheesesteak/400/300,Grilled chicken with melted cheese and peppers.,2
+5,Cheese Fries,6.00,https://picsum.photos/seed/cheese-fries/400/300,Fries topped with melted cheese sauce.,1
+6,Carne Asada Taco,3.50,https://picsum.photos/seed/carne-asada-taco/400/300,Grilled steak taco with onion and cilantro.,1
+6,Al Pastor Taco,3.50,https://picsum.photos/seed/al-pastor-taco/400/300,Marinated pork taco with pineapple.,2
+7,Veggie Burrito,9.00,https://picsum.photos/seed/veggie-burrito/400/300,"Rice, beans, and grilled vegetables wrapped in a flour tortilla.",1
+8,Vanilla Bean Scoop,4.00,https://picsum.photos/seed/vanilla-scoop/400/300,Classic vanilla bean ice cream.,1
+8,Chocolate Fudge Scoop,4.50,https://picsum.photos/seed/chocolate-scoop/400/300,Rich chocolate ice cream with fudge swirls.,2
+9,Waffle Cone,1.50,https://picsum.photos/seed/waffle-cone/400/300,Crispy waffle cone upgrade.,1
